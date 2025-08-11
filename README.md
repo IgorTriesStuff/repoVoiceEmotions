@@ -112,17 +112,20 @@ Notes:
 
 
 
-## Run
+## To Build
 
 bash
 
-`python repoEmotionKeys.py` 
+py -m venv .venv
+".venv\Scripts\activate"
+pip install -U pip
+pip install pyinstaller vosk pynput sounddevice pystray pillow
 
-    
-    `pyinstaller --onefile --noconsole --clean -y --noupx ^
-      --collect-binaries vosk --collect-data vosk ^
-      --add-data "models\vosk-model-small-en-us-0.15;models\vosk-model-small-en-us-0.15" ^
-      repoEmotionKeys.py`
+pyinstaller --onedir --console --clean -y --noupx ^
+  --collect-binaries vosk --collect-data vosk ^
+  --add-data "models\vosk-model-small-en-us-0.15;models\vosk-model-small-en-us-0.15" ^
+  repoEmotionKeys.py
+
 
 # Tray controls
 
