@@ -1,12 +1,17 @@
 {
-  "cooldown_sec_per_mood": 1.0,
+  "cooldown_sec_per_mood": 1.2,
   "require_context_phrase": false,
+  "input_device_index": null,
+  "debug": {
+    "log_recognition": true,
+    "beep_on_trigger": false
+  },
   "moods": {
-    "angry":      { "key": "5", "synonyms": ["angry", "mad", "furious", "bread"] },
-    "happy":      { "key": "0", "synonyms": ["happy", "glad", "joyful", "yay"] },
-    "sleepy":     { "key": "8", "synonyms": ["sleepy", "tired", "drowsy"] },
-    "sad":        { "key": "6", "synonyms": ["sad", "unhappy", "blue"] },
-    "suspicious": { "key": "7", "synonyms": ["suspicious", "sus", "fishy"] },
-    "surprised":  { "key": "9", "synonyms": ["surprised", "shocked", "whoa", "afraid"] }
+    "angry":      { "key": "5", "synonyms": ["angry", "mad", "furious", "irritated", "pissed", "upset"] },
+    "sad":        { "key": "6", "synonyms": ["sad", "unhappy", "down", "blue"] },
+    "suspicious": { "key": "7", "synonyms": ["suspicious", "skeptical", "doubtful", "fishy", "sus"] },
+    "sleepy":     { "key": "8", "synonyms": ["sleepy", "tired", "drowsy", "sleepyhead", "yawning"] },
+    "surprised":  { "key": "9", "synonyms": ["surprised", "shocked"] },
+    "happy":      { "key": "0", "synonyms": ["happy", "glad", "joyful", "cheerful"] }
   }
 }
