@@ -103,15 +103,14 @@ Notes:
     
 -   **Vosk model** (offline, ~50–70 MB): download `vosk-model-small-en-us-0.15` and unzip to:
     
-    markdown
-    
-    
-    
-    `project/
-      repoEmotionKeys.py
-      models/
-     vosk-model-small-en-us-0.15/` 
-    
+## Project Layout
+
+ - project/
+	 - repoEmotionKeys.py
+	 - models/
+		 - vosk-model-small-en-us-0.15/
+
+
 
 ## Run
 
