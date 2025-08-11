@@ -126,7 +126,6 @@ pyinstaller --onedir --console --clean -y --noupx ^
   --add-data "models\vosk-model-small-en-us-0.15;models\vosk-model-small-en-us-0.15" ^
   repoEmotionKeys.py
 
-
 # Tray controls
 
 -   **Enable/Disable listening** — toggles hot mic detection (useful on stream).
