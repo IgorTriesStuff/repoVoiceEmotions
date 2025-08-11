@@ -1,0 +1,12 @@
+{
+  "cooldown_sec_per_mood": 1.0,
+  "require_context_phrase": false,
+  "moods": {
+    "angry":      { "key": "5", "synonyms": ["angry", "mad", "furious", "bread"] },
+    "happy":      { "key": "0", "synonyms": ["happy", "glad", "joyful", "yay"] },
+    "sleepy":     { "key": "8", "synonyms": ["sleepy", "tired", "drowsy"] },
+    "sad":        { "key": "6", "synonyms": ["sad", "unhappy", "blue"] },
+    "suspicious": { "key": "7", "synonyms": ["suspicious", "sus", "fishy"] },
+    "surprised":  { "key": "9", "synonyms": ["surprised", "shocked", "whoa", "afraid"] }
+  }
+}
