@@ -135,7 +135,7 @@ bash
 
 # Tips & troubleshooting
 
--   **Antivirus warnings:** portable EXEs that listen to mic & simulate keys may trigger heuristics. 
+-   **Antivirus warnings:** portable EXEs that listen to mic & simulate keys may trigger heuristics. Consider shutting it down for a while.
     
 -   **No key presses?** Make sure the game/window is **focused**. The app types into the active window.
 
