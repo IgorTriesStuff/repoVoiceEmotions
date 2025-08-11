@@ -150,3 +150,10 @@ pyinstaller --onedir --console --clean -y --noupx ^
 -   No internet access; nothing is uploaded.
     
 -   The app only simulates number keys you configure.
+
+# Third-Party Notices
+
+- Vosk — Apache License 2.0 (license included in licenses/VOSK_LICENSE.txt).
+- Vosk English model (vosk-model-small-en-us-0.15) — see licenses/VOSK_MODEL_LICENSE.txt.
+- pynput, pystray, Pillow, python-sounddevice — see included licenses in licenses/. 
+This tool includes software developed by the Apache Software Foundation (http://www.apache.org/).
